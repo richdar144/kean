@@ -1,0 +1,60 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "immagini"
+public_folder: "/immagini"
+
+collections:
+  # ==========================
+  #     SQUADRA
+  # ==========================
+  - name: "squadra"
+    label: "Squadra"
+    folder: "data/squadra"
+    create: false
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Nome", name: "nome", widget: "string" }
+      - { label: "Numero", name: "numero", widget: "number", required: false }
+      - { label: "Ruolo", name: "ruolo", widget: "string" }
+      - { label: "Foto", name: "foto", widget: "image" }
+
+  # ==========================
+  #     RISULTATI PARTITE
+  # ==========================
+  - name: "risultati"
+    label: "Risultati Partite"
+    file: "data/risultati/risultati.json"
+    fields:
+      - label: "Partite"
+        name: "partite"
+        widget: "list"
+        fields:
+          - { label: "Data", name: "data", widget: "string" }
+          - { label: "Nome Squadra", name: "team_name", widget: "string" }
+          - { label: "Logo Squadra", name: "team_logo", widget: "image" }
+          - { label: "Gol KEAN", name: "gol_kean", widget: "number" }
+          - { label: "Gol Avversario", name: "gol_opp", widget: "number" }
+          - { label: "Logo Avversario", name: "opp_logo", widget: "image" }
+          - { label: "Nome Avversario", name: "opp_name", widget: "string" }
+          - { label: "Esito", name: "esito", widget: "string" }
+          - { label: "Classe Esito", name: "esito_class", widget: "string" }
+          - { label: "Titolo Marcatori", name: "titolo_marcatori", widget: "string" }
+          - { label: "Marcatori", name: "marcatori", widget: "string" }
+          - { label: "Stile Speciale", name: "special_style", widget: "string", required: false }
+
+  # ==========================
+  #     STATISTICHE STORICO
+  # ==========================
+  - name: "storico"
+    label: "Statistiche Storiche"
+    file: "data/storico/storico.json"
+    fields:
+      - { label: "Partite giocate", name: "giocate", widget: "number" }
+      - { label: "Vittorie", name: "vittorie", widget: "number" }
+      - { label: "Pareggi", name: "pareggi", widget: "number" }
+      - { label: "Sconfitte", name: "sconfitte", widget: "number" }
+      - { label: "Gol Fatti", name: "gf", widget: "number" }
+      - { label: "Gol Subiti", name: "gs", widget: "number" }

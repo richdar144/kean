@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "R. BELLO",
+    "numero": 2,
+    "ruolo": "Difensore",
+    "foto": "immagini/bello.jpg"
+  },
+  {
+    "nome": "F. D'ARGENTO",
+    "numero": 3,
+    "ruolo": "Difensore",
+    "foto": "immagini/dargento.jpg"
+  },
+  {
+    "nome": "S. DE TULLIO",
+    "numero": 5,
+    "ruolo": "Difensore",
+    "foto": "immagini/detullio-simone.JPG"
+  },
+  {
+    "nome": "M. MILEO",
+    "numero": 69,
+    "ruolo": "Difensore",
+    "foto": "immagini/mileo.jpg"
+  },
+  {
+    "nome": "A. VERNA",
+    "numero": 19,
+    "ruolo": "Difensore",
+    "foto": "immagini/verna.jpg"
+  },
+  {
+    "nome": "S. DE BENEDICTIS",
+    "numero": 22,
+    "ruolo": "Difensore",
+    "foto": "immagini/debe.jpg"
+  }
+]

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kean FC - Rosa Ufficiale</title>
+    <link rel="icon" href="logokean.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Oswald:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header id="main-header">
+    <img src="logokean.jpg" alt="Kean FC Logo" class="logo-img">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="squadra.html" class="active">Squadra</a></li>
+            <li><a href="risultati.html">Risultati</a></li>
+            <li><a href="stagione.html">Storico</a></li>
+            <li><a href="club.html">Club</a></li>
+            <li><a href="provini.html">Provini</a></li>
+        </ul>
+    </nav>
+    <a href="contatti.html" class="cta-button">CONTATTI</a>
+</header>
+
+<section class="section-content" style="padding-top: 120px;">
+    <div class="container">
+        
+        <h2 style="color: var(--bianco-testo);">La Rosa Ufficiale Kean FC</h2>
+        <div class="section-divider-line"></div>
+        <p class="section-subtitle" style="color: var(--bianco-testo)">
+            I guerrieri che hanno portato la Triggiano Cup a casa. Talento, disciplina e cuore viola.
+        </p>
+
+        <!-- PORTIERI -->
+        <h3 class="player-title">Portieri</h3>
+        <div class="player-card-grid" id="lista-portieri"></div>
+
+        <!-- DIFENSORI -->
+        <h3 class="player-title">Difensori</h3>
+        <div class="player-card-grid" id="lista-difensori"></div>
+
+        <!-- CENTROCAMPISTI -->
+        <h3 class="player-title">Centrocampisti</h3>
+        <div class="player-card-grid" id="lista-centrocampisti"></div>
+
+        <!-- ATTACCANTI -->
+        <h3 class="player-title">Attaccanti</h3>
+        <div class="player-card-grid" id="lista-attaccanti"></div>
+
+        <!-- STAFF -->
+        <h3 class="player-title" style="margin-top: 60px;">Staff Tecnico</h3>
+        <div class="player-card-grid" id="lista-staff" style="grid-template-columns: minmax(250px, 350px); justify-content: center;"></div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+        <p style="color: var(--bianco-testo);">© 2025 Kean FC | Eleganza Aggressiva.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/kean_fc_/" style="color: var(--oro-freddo) !important;" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@kean.fc?_t=ZN-90ys26RyFPy&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/loader_squadra.js"></script>
+
+</body>
+</html>

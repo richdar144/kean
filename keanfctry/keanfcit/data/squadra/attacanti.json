@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "A. ANCONA",
+    "numero": 7,
+    "ruolo": "Attaccante",
+    "foto": "immagini/ancona.jpg"
+  },
+  {
+    "nome": "G. DE ROSA",
+    "numero": 17,
+    "ruolo": "Attaccante",
+    "foto": "immagini/dero.jpg"
+  },
+  {
+    "nome": "C. DIFINO",
+    "numero": 9,
+    "ruolo": "Attaccante",
+    "foto": "immagini/difino.jpg"
+  },
+  {
+    "nome": "G. GIUSTINO",
+    "numero": 4,
+    "ruolo": "Attaccante",
+    "foto": "immagini/giustino.jpg"
+  }
+]

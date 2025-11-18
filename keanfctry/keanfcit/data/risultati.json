@@ -1,0 +1,83 @@
+{
+  "partite": [
+    {
+      "data": "SABATO 14 GIUGNO 2025 | FASE A GIRONI",
+      "team_name": "KEAN FC",
+      "team_logo": "logokean.jpg",
+      "gol_kean": 5,
+      "gol_opp": 4,
+      "opp_logo": "immagini/celagnorafc.jpg",
+      "opp_name": "CELAGNORAFC",
+      "esito": "VITTORIA",
+      "esito_class": "status-win",
+      "titolo_marcatori": "Marcatori KEAN:",
+      "marcatori": "Ricci (2), Ancona (2), Giustino (1), De Rosa (1)"
+    },
+    {
+      "data": "SABATO 21 GIUGNO 2025 | FASE A GIRONI",
+      "team_name": "KEAN FC",
+      "team_logo": "logokean.jpg",
+      "gol_kean": 14,
+      "gol_opp": 1,
+      "opp_logo": "immagini/ascdreamvolta.jpg",
+      "opp_name": "ASC DREAM VOLTA",
+      "esito": "VITTORIA RECORD",
+      "esito_class": "status-win",
+      "titolo_marcatori": "Marcatori KEAN:",
+      "marcatori": "Carbonara (4), Pinto (3), Ancona (3), Abatangelo (1), S. De Tullio (1), A. De Girolamo (1), Verna (1)"
+    },
+    {
+      "data": "MERCOLEDÌ 25 GIUGNO 2025 | FASE A GIRONI",
+      "team_name": "KEAN FC",
+      "team_logo": "logokean.jpg",
+      "gol_kean": 3,
+      "gol_opp": 3,
+      "opp_logo": "immagini/realtriggiano.jpg",
+      "opp_name": "REAL TRIGGIANO",
+      "esito": "PAREGGIO",
+      "esito_class": "status-draw",
+      "titolo_marcatori": "Marcatori KEAN:",
+      "marcatori": "De Rosa (2), Ricci (1)"
+    },
+    {
+      "data": "GIOVEDÌ 04 LUGLIO 2025 | FASE A GIRONI",
+      "team_name": "KEAN FC",
+      "team_logo": "logokean.jpg",
+      "gol_kean": 3,
+      "gol_opp": 0,
+      "opp_logo": "immagini/arcobalenotriggiano.jpg",
+      "opp_name": "ARCOBALENO TRIGGIANO",
+      "esito": "VITTORIA A TAVOLINO",
+      "esito_class": "status-win",
+      "titolo_marcatori": "Motivazione:",
+      "marcatori": "Vittoria per 3-0 a tavolino (Arcobaleno Triggiano ritirato)"
+    },
+    {
+      "data": "SABATO 05 LUGLIO 2025 | SEMIFINALE",
+      "team_name": "KEAN FC",
+      "team_logo": "logokean.jpg",
+      "gol_kean": 4,
+      "gol_opp": 3,
+      "opp_logo": "immagini/celestianwolves.jpg",
+      "opp_name": "CELESTIAN WOLVES",
+      "esito": "VITTORIA",
+      "esito_class": "status-win",
+      "titolo_marcatori": "Marcatori KEAN:",
+      "marcatori": "Biancofiore (2), Carbonara (1), Ancona (1)"
+    },
+    {
+      "data": "LUNEDÌ 14 LUGLIO 2025 | LA GRANDE FINALE 👑",
+      "team_name": "KEAN FC",
+      "team_logo": "logokean.jpg",
+      "gol_kean": 8,
+      "gol_opp": 1,
+      "opp_logo": "immagini/casperfc.jpg",
+      "opp_name": "CASPER FC",
+      "esito": "CAMPIONI DEL TORNEO!",
+      "esito_class": "status-win",
+      "special_style": "finale",
+      "titolo_marcatori": "Marcatori KEAN (Finale):",
+      "marcatori": "Difino (4), Ricci (1), Giustino (2), Mileo (1)"
+    }
+  ]
+}

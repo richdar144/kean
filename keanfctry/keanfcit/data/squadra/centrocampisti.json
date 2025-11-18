@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "N. ABATANGELO",
+    "numero": 10,
+    "ruolo": "Centrocampista",
+    "foto": "immagini/abatangelo.jpg"
+  },
+  {
+    "nome": "A. CARBONARA",
+    "numero": 11,
+    "ruolo": "Centrocampista",
+    "foto": "immagini/carbonara.jpg"
+  },
+  {
+    "nome": "A. DE GIROLAMO",
+    "numero": 20,
+    "ruolo": "Centrocampista",
+    "foto": "immagini/degirolamo.jpg"
+  },
+  {
+    "nome": "G. DE TULLIO",
+    "numero": 8,
+    "ruolo": "Centrocampista",
+    "foto": "immagini/detullio-giovanni.JPG"
+  },
+  {
+    "nome": "C. RICCI",
+    "numero": 21,
+    "ruolo": "Centrocampista",
+    "foto": "immagini/ricci.jpg"
+  },
+  {
+    "nome": "M. BIANCOFIORE",
+    "numero": 6,
+    "ruolo": "Centrocampista",
+    "foto": "immagini/bianco.jpg"
+  }
+]

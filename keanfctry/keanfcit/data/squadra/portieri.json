@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "A. ANGIULI",
+    "numero": 1,
+    "ruolo": "Portiere",
+    "foto": "immagini/angiulli.jpg"
+  },
+  {
+    "nome": "A. CARONE",
+    "numero": 12,
+    "ruolo": "Portiere",
+    "foto": "immagini/carone.jpg"
+  }
+]
